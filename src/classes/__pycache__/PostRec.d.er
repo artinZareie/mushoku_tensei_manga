@@ -1,0 +1,7 @@
+##[pylyzer] succeed /home/aritn/Documents/Projects/mangaodown/src/classes/PostRec.py 1711364363 170
+
+.Post: ClassType
+.Post.title: Never
+.Post.link: Never
+.Post.__call__: (link: Obj, title: Obj) -> .Post
+

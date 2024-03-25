@@ -1,0 +1,30 @@
+##[pylyzer] failed /home/aritn/Documents/Projects/mangaodown/src/helpers/utils.py 1711370349 3165
+
+.os = pyimport "os"
+
+.requests = pyimport "requests"
+
+.___v_desugar_1 = pyimport "pathlib"
+.Path: {pathlib.Path}
+.___v_desugar_2 = pyimport "bs4"
+.BeautifulSoup: Never
+.___v_desugar_3 = pyimport "tqdm"
+.tqdm: (iterable: Iterable(Never), desc := Str, total := Float, leave := Bool, file := File!, ncols := Int, mininterval := Float, maxinterval := Float, miniters := Float, ascii := Bool or Str, disable := Bool, unit := Str, unit_scale := Float, dynamic_ncols := Bool, smoothing := Float, bar_format := Str, initial := Float, position := Int, postfix := Dict({Str: Obj}), unit_divisor := Float, write_bytes := Bool, lock_args := Array(Obj, _: Nat), nrows := Int, colour := Str, delay := Float, gui := Bool) -> tqdm.Tqdm!(Never)
+.___v_desugar_4 = pyimport "PIL"
+.Image: Never
+.___v_desugar_5 = pyimport "borb/pdf"
+.Document: Never
+.___v_desugar_6 = pyimport "borb/pdf"
+.Page: Never
+.___v_desugar_7 = pyimport "borb/pdf"
+.PDF: Never
+.___v_desugar_8 = pyimport "(...)"
+.BorbImage: Never
+.___v_desugar_9 = pyimport "borb/pdf"
+.SingleColumnLayout: Never
+.___v_desugar_10 = pyimport "classes/PostRec"
+.Post: Never
+.get_posts_list: (source: Obj) -> Never
+.get_entry_title: (link: Obj) -> Never
+.images_to_pdf: (images_list: Iterable(Str), output_pdf: PathLike) -> Never
+.download_single_post: |Type_65: Type, Type_27 <: Structural({.title = Type_65; .link = Type_66}), Type_66: Type|(post: Type_27) -> Never
