@@ -1,5 +1,6 @@
 # created by virtualenv automatically
 imgs/*
+tmp/*
 outputs/*
 bin/*
 lib/*
