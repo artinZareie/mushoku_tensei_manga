@@ -48,7 +48,7 @@ def images_to_pdf(images_list, output_pdf):
     if not os.path.exists(os.path.dirname(output_pdf)):
         os.makedirs(os.path.dirname(output_pdf))
 
-    pil_images = [Image.open(image) for image in images_list]
+    pil_images = [Image.open(image).convert("RGB") for image in images_list]
     pil_images[0].save(output_pdf, "PDF", save_all=True,
                        append_images=pil_images[1:])
 
