@@ -72,7 +72,11 @@ def download_single_post(post):
     with tqdm(total=len(image_tags),
               desc=f"Downloading Images for '{post.title}'") as pbar:
         for idx, image_tag in enumerate(image_tags, 1):
-            img_url = image_tag.find('img')['src']
+            img_url = image_tag.find('img')
+            if not img_url:
+                pbar.update(1)
+                continue
+            img_url = img_url['src']
             img_name = f"{idx}.jpg"
             img_path = os.path.join(folder_name, img_name)
             images_list.append(img_path)
