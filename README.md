@@ -1,6 +1,6 @@
 # Mushoku Tensei Manga Downloader
 
-Welcome to this github repository. This is a python-based mushoku tensei manga downloader written to download the manga from [MushokuTenseiScan](https://mushokutenseiscan.com/) and convert it to PDF file. I hope you’ll enjoy it!
+Welcome to this github repository. This is a python-based mushoku tensei manga downloader written to download the manga from [MushokuTenseiScan](https://mushokutenseiscan.com/) and converts it to PDF file. I hope you’ll enjoy it!
 
 ## Installation
 
